@@ -22,7 +22,7 @@ document.getElementById('contact-form').addEventListener('submit', async functio
     try {
         // 2. Send the data to your live Spring Boot API on Render
         // REPLACE THE URL BELOW WITH YOUR ACTUAL RENDER LINK
-        const response = await fetch('https://trisha-portfolio-backend.onrender.com', {
+        const response = await fetch('https://trisha-portfolio-backend.onrender.com/api/contact/send', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
