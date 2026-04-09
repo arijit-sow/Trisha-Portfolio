@@ -8,10 +8,36 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Handle Contact Form Submission
-document.getElementById('contact-form').addEventListener('submit', function(e) {
+// Handle Contact Form Submission to Live Backend
+document.getElementById('contact-form').addEventListener('submit', async function(e) {
     e.preventDefault(); 
-    const name = document.getElementById('name').value;
-    alert(`Thank you for reaching out, ${name}! Your message has been simulated successfully.`);
-    this.reset();
+    
+    // 1. Gather the data from the form
+    const formData = {
+        name: document.getElementById('name').value,
+        email: document.getElementById('email').value,
+        message: document.getElementById('message').value
+    };
+
+    try {
+        // 2. Send the data to your live Spring Boot API on Render
+        // REPLACE THE URL BELOW WITH YOUR ACTUAL RENDER LINK
+        const response = await fetch('https://YOUR_RENDER_URL_HERE.onrender.com/api/contact/send', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formData)
+        });
+
+        if (response.ok) {
+            alert('Message successfully sent to Trisha!');
+            this.reset(); // Clear the form
+        } else {
+            alert('Something went wrong. Please try again.');
+        }
+    } catch (error) {
+        console.error('Error:', error);
+        alert('Could not connect to the server.');
+    }
 });
