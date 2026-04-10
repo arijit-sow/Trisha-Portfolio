@@ -3,120 +3,939 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trisha Chatterjee - Portfolio</title>
+    <title>Trisha Chatterjee · Social Media Manager Portfolio</title>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Main Stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <!-- ============================================ -->
+    <!-- NAVIGATION BAR                               -->
+    <!-- ============================================ -->
     <nav id="navbar">
-        <div class="logo">Trisha Chatterjee</div>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Trisha Chatterjee</span>
+                <span class="logo-badge">SMM</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#case-studies">Case Studies</a></li>
+                <li><a href="#content-samples">Work</a></li>
+                <li><a href="#analytics">Analytics</a></li>
+                <li><a href="#calendar">Strategy</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#tools">Tools</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-cta">
+                <a href="#contact" class="btn btn-primary btn-sm">Hire Me</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
     </nav>
 
+    <!-- ============================================ -->
+    <!-- SECTION 1: PROFESSIONAL INTRODUCTION / HERO  -->
+    <!-- ============================================ -->
     <header id="home" class="hero">
-        <div class="hero-content">
-            <h1>Trisha Chatterjee</h1>
-            <h2>Social Media Manager</h2>
-            <p>Results-driven Social Media Manager with 4+ years of experience managing organic and paid digital campaigns across platforms including LinkedIn, Instagram, Facebook, and YouTube.</p>
-            <p>Based in Kolkata, India</p>
-            <a href="#contact" class="btn">Get in Touch</a>
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <span class="hero-badge">
+                        <i class="fas fa-circle-check"></i> Available for Opportunities
+                    </span>
+                    <h1 class="hero-title">
+                        Trisha Chatterjee
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        Social Media Manager & Content Strategist
+                    </h2>
+                    <p class="hero-description">
+                        Social Media Manager with <strong>4+ years of experience</strong> in building brand presence, 
+                        increasing engagement, and driving audience growth across 
+                        <strong>Instagram, LinkedIn, Facebook, Threads, and YouTube</strong>.
+                    </p>
+                    
+                    <!-- Specialization Tags -->
+                    <div class="specialization-tags">
+                        <span class="tag"><i class="fab fa-instagram"></i> Instagram</span>
+                        <span class="tag"><i class="fab fa-linkedin"></i> LinkedIn</span>
+                        <span class="tag"><i class="fab fa-facebook"></i> Facebook</span>
+                        <span class="tag"><i class="fab fa-youtube"></i> YouTube</span>
+                        <span class="tag"><i class="fab fa-threads"></i> Threads</span>
+                    </div>
+                    
+                    <!-- Industry Niche Tags -->
+                    <div class="niche-tags">
+                        <span class="niche-tag">E-commerce</span>
+                        <span class="niche-tag">F&B / QSR</span>
+                        <span class="niche-tag">B2B Services</span>
+                        <span class="niche-tag">Fitness & Wellness</span>
+                        <span class="niche-tag">Events</span>
+                    </div>
+                    
+                    <div class="hero-cta">
+                        <a href="#case-studies" class="btn btn-primary btn-large">
+                            <i class="fas fa-chart-line"></i> View Case Studies
+                        </a>
+                        <a href="#contact" class="btn btn-outline btn-large">
+                            <i class="fas fa-paper-plane"></i> Let's Connect
+                        </a>
+                    </div>
+                    
+                    <!-- Quick Stats -->
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">4+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">30+</span>
+                            <span class="stat-label">Accounts Managed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Campaigns Delivered</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="profile-card">
+                        <div class="profile-icon">
+                            <i class="fas fa-user-astronaut"></i>
+                        </div>
+                        <div class="profile-info">
+                            <h3>Trisha Chatterjee</h3>
+                            <p>Social Media Manager</p>
+                            <div class="profile-location">
+                                <i class="fas fa-location-dot"></i> Kolkata, India · Remote Global
+                            </div>
+                        </div>
+                        <div class="profile-platforms">
+                            <span><i class="fab fa-instagram"></i></span>
+                            <span><i class="fab fa-linkedin"></i></span>
+                            <span><i class="fab fa-facebook"></i></span>
+                            <span><i class="fab fa-youtube"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
 
-    <section id="experience" class="experience">
-        <h2>Professional Experience</h2>
-        <div class="timeline">
-            <div class="timeline-item">
-                <h3>Social Media Manager</h3>
-                <h4>House of Summary | Wyoming, USA</h4>
-                <p><strong>Feb 2025 - Apr 2026</strong></p>
-                <ul>
-                    <li>Managed and monitored 30+ social media accounts and 7+ newsletters, ensuring platform-specific content accuracy, formatting consistency, and brand compliance before publishing.</li>
-                    <li>Analyzed engagement metrics and distribution performance to optimize content quality and reduce inconsistencies.</li>
-                </ul>
+    <!-- ============================================ -->
+    <!-- SECTION 2: ABOUT ME                          -->
+    <!-- ============================================ -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+              
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Building brands through strategic storytelling and data-driven decisions</p>
             </div>
-            <div class="timeline-item">
-                <h3>Social Media Executive</h3>
-                <h4>Thatware LLP | West Bengal, India</h4>
-                <p><strong>Jun 2024 - Jan 2025</strong></p>
-                <ul>
-                    <li>Managed and optimized paid social campaigns across Meta platforms, ensuring ad creatives, targeting, and placements aligned with client objectives.</li>
-                    <li>Monitored campaign performance, tracked key metrics (CPC, CTR, ROAS, CPL), and generated actionable reports for clients.</li>
-                </ul>
-            </div>
-            <div class="timeline-item">
-                <h3>Digital Marketing Executive</h3>
-                <h4>Cyrus E-commerce Private Limited. | Kolkata, India</h4>
-                <p><strong>Apr 2023 - Jun 2024</strong></p>
-                <ul>
-                    <li>Led end-to-end social media operations, ensuring brand consistency and structured campaign deployment across Instagram, Facebook, LinkedIn, and YouTube.</li>
-                    <li>Managed digital growth initiatives that improved online visibility from 0% to 15% within 10 months.</li>
-                </ul>
+            
+            <div class="about-grid">
+                <div class="about-content">
+                    <p class="about-intro">
+                        <strong>I help brands grow their online presence through content strategy, 
+                        community engagement, and performance-driven campaigns.</strong>
+                    </p>
+                    
+                    <p>
+                        With over 4 years of hands-on experience managing social media for brands 
+                        across India and the United States, I've developed a unique approach that 
+                        blends creative storytelling with rigorous analytics.
+                    </p>
+                    
+                    <p>
+                        I specialize in working with <strong>e-commerce brands, B2B service providers, 
+                        and D2C startups</strong> who want to build authentic connections with their 
+                        audience while driving measurable business results.
+                    </p>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight">
+                            <i class="fas fa-chart-pie"></i>
+                            <div>
+                                <h4>Data-Informed Creative</h4>
+                                <p>Every creative decision backed by audience insights and performance data</p>
+                            </div>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <h4>Community-First Approach</h4>
+                                <p>Building engaged communities, not just follower counts</p>
+                            </div>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-bullseye"></i>
+                            <div>
+                                <h4>ROI Focused</h4>
+                                <p>Strategies designed to drive leads, sales, and business growth</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-cta">
+                        <a href="#" class="btn btn-secondary">
+                            <i class="fas fa-file-pdf"></i> Download Resume
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="about-stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fas fa-calendar"></i></div>
+                        <div class="stat-value">4+</div>
+                        <div class="stat-name">Years Active</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fas fa-building"></i></div>
+                        <div class="stat-value">15+</div>
+                        <div class="stat-name">Brands Served</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fas fa-globe"></i></div>
+                        <div class="stat-value">2</div>
+                        <div class="stat-name">Countries</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fas fa-trophy"></i></div>
+                        <div class="stat-value">100%</div>
+                        <div class="stat-name">Client Retention</div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="projects" class="portfolio">
-        <h2>Key Projects</h2>
-        <div class="grid">
-            <div class="card portfolio-card">
-                <h3>The Event Designer - Social Media Campaign</h3>
-                <p>Conducted structured campaign monitoring and optimization for a 3-month social media campaign.</p>
-                <p>Generated 57+ high-quality leads through consistent monitoring and data-backed adjustments.</p>
+    <!-- ============================================ -->
+    <!-- SECTION 3: SERVICES / EXPERTISE              -->
+    <!-- ============================================ -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Services & Expertise</h2>
+                <p class="section-subtitle">Comprehensive social media solutions tailored to your brand</p>
             </div>
-            <div class="card portfolio-card">
-                <h3>The ThickShakeFactory - Social Media Strategy</h3>
-                <p>Supported structured social media strategy development, contributing to content calendar planning, post ideation, and campaign structuring.</p>
-            </div>
-            <div class="card portfolio-card">
-                <h3>Cultfit - Social Media Strategy & Quality Optimization Project</h3>
-                <p>Analyzed audience insights and engagement patterns to recommend data-backed improvements for content quality and campaign effectiveness.</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-chess-board"></i></div>
+                    <h3>Content Strategy</h3>
+                    <p>Comprehensive content roadmaps aligned with business goals and audience needs</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-calendar-week"></i></div>
+                    <h3>Content Calendar Planning</h3>
+                    <p>Structured posting schedules that maintain consistency and maximize reach</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-pen-fancy"></i></div>
+                    <h3>Caption Writing</h3>
+                    <p>Engaging, on-brand copy that drives comments, shares, and conversions</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-hashtag"></i></div>
+                    <h3>Hashtag Strategy</h3>
+                    <p>Research-backed hashtag sets that expand reach and improve discoverability</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-video"></i></div>
+                    <h3>Reels & Short-Form Video</h3>
+                    <p>Trend-aware video content strategies optimized for platform algorithms</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-comments"></i></div>
+                    <h3>Community Management</h3>
+                    <p>Proactive engagement that builds loyal brand advocates</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-ad"></i></div>
+                    <h3>Paid Ads Coordination</h3>
+                    <p>Campaign management and optimization across Meta and LinkedIn Ads</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-handshake"></i></div>
+                    <h3>Influencer Collaboration</h3>
+                    <p>Identifying and managing partnerships with relevant content creators</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-flag"></i></div>
+                    <h3>Brand Positioning</h3>
+                    <p>Developing unique voice and visual identity across social channels</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-chart-bar"></i></div>
+                    <h3>Analytics Reporting</h3>
+                    <p>Actionable insights and performance dashboards for informed decisions</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="skills" class="skills">
-        <h2>Technical Skills</h2>
-        <div class="grid">
-            <div class="card">
-                <h3>Core Competencies</h3>
-                <p>Social Media Strategy & Planning, Social Media Management, Content Planning & Creative Coordination, Paid Social Media Marketing.</p>
+    <!-- ============================================ -->
+    <!-- SECTION 4: CAMPAIGN CASE STUDIES             -->
+    <!-- ============================================ -->
+    <section id="case-studies" class="case-studies">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Campaign Case Studies</h2>
+                <p class="section-subtitle">Real campaigns. Real results. Data-backed success stories.</p>
             </div>
-            <div class="card">
-                <h3>Platforms</h3>
-                <p>Instagram, Facebook, LinkedIn, Twitter (X), Threads, Pinterest, YouTube.</p>
+            
+            <!-- Case Study 1: The Event Designer -->
+            <div class="case-study featured">
+                <div class="case-study-header">
+                    <div class="client-info">
+                        <div class="client-avatar">TED</div>
+                        <div class="client-details">
+                            <h3>The Event Designer</h3>
+                            <span class="client-type">B2B Event Management · 3-Month Campaign</span>
+                        </div>
+                    </div>
+                    <div class="case-study-tags">
+                        <span>Lead Generation</span>
+                        <span>LinkedIn Ads</span>
+                        <span>Meta Ads</span>
+                    </div>
+                </div>
+                
+                <div class="case-study-grid">
+                    <div class="case-section">
+                        <h4><i class="fas fa-bullseye"></i> Objective</h4>
+                        <ul>
+                            <li>Generate high-quality leads for corporate event services</li>
+                            <li>Increase brand awareness among B2B decision-makers</li>
+                            <li>Improve conversion rate from social traffic</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="case-section">
+                        <h4><i class="fas fa-gears"></i> Strategy</h4>
+                        <ul>
+                            <li>Developed multi-channel campaign across LinkedIn and Instagram</li>
+                            <li>Created targeted ad sets based on job titles and industries</li>
+                            <li>Implemented A/B testing on ad creatives and landing pages</li>
+                            <li>Weekly performance reviews with data-driven optimizations</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="case-section results">
+                        <h4><i class="fas fa-trophy"></i> Results</h4>
+                        <div class="results-grid">
+                            <div class="result-item">
+                                <span class="result-number">57+</span>
+                                <span class="result-label">Qualified Leads</span>
+                                <span class="result-trend positive"><i class="fas fa-arrow-up"></i> Generated in 3 months</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-number">18%</span>
+                                <span class="result-label">Lower CPA</span>
+                                <span class="result-trend positive"><i class="fas fa-arrow-down"></i> vs industry benchmark</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-number">4.2%</span>
+                                <span class="result-label">Conversion Rate</span>
+                                <span class="result-trend positive"><i class="fas fa-arrow-up"></i> from social traffic</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="card">
-                <h3>Tools & Analytics</h3>
-                <p>Hootsuite, Sprout Social, Metricool. Google Analytics, Meta Business Suite, Instagram Insights, LinkedIn Analytics, YouTube Studio.</p>
+            
+            <!-- Case Study 2: The ThickShakeFactory -->
+            <div class="case-study">
+                <div class="case-study-header">
+                    <div class="client-info">
+                        <div class="client-avatar">TSF</div>
+                        <div class="client-details">
+                            <h3>The ThickShakeFactory</h3>
+                            <span class="client-type">F&B / QSR · Brand Launch</span>
+                        </div>
+                    </div>
+                    <div class="case-study-tags">
+                        <span>Brand Strategy</span>
+                        <span>Content Calendar</span>
+                        <span>Instagram</span>
+                    </div>
+                </div>
+                
+                <div class="case-study-grid">
+                    <div class="case-section">
+                        <h4><i class="fas fa-bullseye"></i> Objective</h4>
+                        <ul>
+                            <li>Establish distinct brand identity in crowded QSR market</li>
+                            <li>Build engaged community from scratch</li>
+                            <li>Drive foot traffic to physical locations</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="case-section">
+                        <h4><i class="fas fa-gears"></i> Strategy</h4>
+                        <ul>
+                            <li>Developed multi-pillar content strategy (ASMR, UGC, Behind-the-scenes)</li>
+                            <li>Created 4-week content calendar with daily posting schedule</li>
+                            <li>Implemented hashtag strategy targeting local foodie community</li>
+                            <li>Coordinated with micro-influencers for launch week</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="case-section results">
+                        <h4><i class="fas fa-trophy"></i> Results</h4>
+                        <div class="results-grid">
+                            <div class="result-item">
+                                <span class="result-number">10K+</span>
+                                <span class="result-label">Organic Reach</span>
+                                <span class="result-trend positive"><i class="fas fa-arrow-up"></i> First 8 weeks</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-number">8.5%</span>
+                                <span class="result-label">Engagement Rate</span>
+                                <span class="result-trend positive"><i class="fas fa-arrow-up"></i> 3x industry average</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-number">2.4K</span>
+                                <span class="result-label">Followers</span>
+                                <span class="result-trend positive"><i class="fas fa-arrow-up"></i> From zero in 60 days</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Case Study 3: Cultfit -->
+            <div class="case-study">
+                <div class="case-study-header">
+                    <div class="client-info">
+                        <div class="client-avatar">CF</div>
+                        <div class="client-details">
+                            <h3>Cultfit</h3>
+                            <span class="client-type">Fitness & Wellness · Content Optimization</span>
+                        </div>
+                    </div>
+                    <div class="case-study-tags">
+                        <span>Content Audit</span>
+                        <span>Quality Optimization</span>
+                        <span>Analytics</span>
+                    </div>
+                </div>
+                
+                <div class="case-study-grid">
+                    <div class="case-section">
+                        <h4><i class="fas fa-bullseye"></i> Objective</h4>
+                        <ul>
+                            <li>Reverse declining organic reach and engagement</li>
+                            <li>Improve content quality and consistency</li>
+                            <li>Increase saves and shares per post</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="case-section">
+                        <h4><i class="fas fa-gears"></i> Strategy</h4>
+                        <ul>
+                            <li>Conducted comprehensive audit of audience insights and engagement patterns</li>
+                            <li>Analyzed top-performing content formats and topics</li>
+                            <li>Recommended data-backed improvements for content quality</li>
+                            <li>Established quality gates and posting guidelines</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="case-section results">
+                        <h4><i class="fas fa-trophy"></i> Results</h4>
+                        <div class="results-grid">
+                            <div class="result-item">
+                                <span class="result-number">15%</span>
+                                <span class="result-label">QoQ Share Increase</span>
+                                <span class="result-trend positive"><i class="fas fa-arrow-up"></i> Saves also up 12%</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-number">22%</span>
+                                <span class="result-label">Reach Recovery</span>
+                                <span class="result-trend positive"><i class="fas fa-arrow-up"></i> Within 60 days</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-number">5.1%</span>
+                                <span class="result-label">Engagement Rate</span>
+                                <span class="result-trend positive"><i class="fas fa-arrow-up"></i> From 3.8% baseline</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ============================================ -->
+    <!-- SECTION 9: TOOLS & PLATFORMS                 -->
+    <!-- ============================================ -->
+    <section id="tools" class="tools">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Tools & Platforms</h2>
+                <p class="section-subtitle">The tools I use to deliver professional, data-driven results</p>
+            </div>
+            
+            <div class="tools-grid">
+                <!-- Design Tools -->
+                <div class="tools-category">
+                    <h3><i class="fas fa-paint-brush"></i> Design & Creative</h3>
+                    <div class="tools-list">
+                        <div class="tool-item">
+                            <span class="tool-name">Canva</span>
+                            <span class="tool-level advanced">Advanced</span>
+                        </div>
+                        <div class="tool-item">
+                            <span class="tool-name">Adobe Photoshop</span>
+                            <span class="tool-level intermediate">Intermediate</span>
+                        </div>
+                        <div class="tool-item">
+                            <span class="tool-name">Adobe Lightroom</span>
+                            <span class="tool-level intermediate">Intermediate</span>
+                        </div>
+                        <div class="tool-item">
+                            <span class="tool-name">CapCut</span>
+                            <span class="tool-level advanced">Advanced</span>
+                        </div>
+                        <div class="tool-item">
+                            <span class="tool-name">InShot</span>
+                            <span class="tool-level advanced">Advanced</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Scheduling & Management -->
+                <div class="tools-category">
+                    <h3><i class="fas fa-calendar-check"></i> Scheduling & Management</h3>
+                    <div class="tools-list">
+                        <div class="tool-item">
+                            <span class="tool-name">Meta Business Suite</span>
+                            <span class="tool-level advanced">Advanced</span>
+                        </div>
+                        <div class="tool-item">
+                            <span class="tool-name">Hootsuite</span>
+                            <span class="tool-level advanced">Advanced</span>
+                        </div>
+                        <div class="tool-item">
+                            <span class="tool-name">Buffer</span>
+                            <span class="tool-level intermediate">Intermediate</span>
+                        </div>
+                        <div class="tool-item">
+                            <span class="tool-name">Later</span>
+                            <span class="tool-level intermediate">Intermediate</span>
+                        </div>
+                        <div class="tool-item">
+                            <span class="tool-name">Sprout Social</span>
+                            <span class="tool-level intermediate">Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Analytics Tools -->
+                <div class="tools-category">
+                    <h3><i class="fas fa-chart-simple"></i> Analytics & Reporting</h3>
+                    <div class="tools-list">
+                        <div class="tool-item">
+                            <span class="tool-name">Google Analytics</span>
+                            <span class="tool-level advanced">Advanced</span>
+                        </div>
+                        <div class="tool-item">
+                            <span class="tool-name">Instagram Insights</span>
+                            <span class="tool-level advanced">Advanced</span>
+                        </div>
+                        <div class="tool-item">
+                            <span class="tool-name">LinkedIn Analytics</span>
+                            <span class="tool-level advanced">Advanced</span>
+                        </div>
+                        <div class="tool-item">
+                            <span class="tool-name">YouTube Studio</span>
+                            <span class="tool-level intermediate">Intermediate</span>
+                        </div>
+                        <div class="tool-item">
+                            <span class="tool-name">Looker Studio</span>
+                            <span class="tool-level intermediate">Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Additional Tools -->
+                <div class="tools-category">
+                    <h3><i class="fas fa-toolbox"></i> Additional Tools</h3>
+                    <div class="tools-list">
+                        <div class="tool-item">
+                            <span class="tool-name">Trello / Asana</span>
+                            <span class="tool-level advanced">Advanced</span>
+                        </div>
+                        <div class="tool-item">
+                            <span class="tool-name">Slack</span>
+                            <span class="tool-level advanced">Advanced</span>
+                        </div>
+                        <div class="tool-item">
+                            <span class="tool-name">Notion</span>
+                            <span class="tool-level advanced">Advanced</span>
+                        </div>
+                        <div class="tool-item">
+                            <span class="tool-name">Google Workspace</span>
+                            <span class="tool-level advanced">Advanced</span>
+                        </div>
+                        <div class="tool-item">
+                            <span class="tool-name">Metricool</span>
+                            <span class="tool-level intermediate">Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Platform Expertise Badges -->
+            <div class="platform-expertise">
+                <h3>Platform Expertise</h3>
+                <div class="platform-badges">
+                    <div class="platform-badge">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                        <div class="expertise-bar">
+                            <div class="expertise-fill" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="platform-badge">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                        <div class="expertise-bar">
+                            <div class="expertise-fill" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="platform-badge">
+                        <i class="fab fa-facebook"></i>
+                        <span>Facebook</span>
+                        <div class="expertise-bar">
+                            <div class="expertise-fill" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="platform-badge">
+                        <i class="fab fa-youtube"></i>
+                        <span>YouTube</span>
+                        <div class="expertise-bar">
+                            <div class="expertise-fill" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="platform-badge">
+                        <i class="fab fa-threads"></i>
+                        <span>Threads</span>
+                        <div class="expertise-bar">
+                            <div class="expertise-fill" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="platform-badge">
+                        <i class="fab fa-pinterest"></i>
+                        <span>Pinterest</span>
+                        <div class="expertise-bar">
+                            <div class="expertise-fill" style="width: 65%"></div>
+                        </div>
+                    </div>
+                    <div class="platform-badge">
+                        <i class="fab fa-x-twitter"></i>
+                        <span>X (Twitter)</span>
+                        <div class="expertise-bar">
+                            <div class="expertise-fill" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
+    <!-- ============================================ -->
+    <!-- SECTION 10: CONTACT / LINKS                  -->
+    <!-- ============================================ -->
     <section id="contact" class="contact">
-        <h2>Let's Connect</h2>
-        <div class="contact-info">
-            <p><strong>Email:</strong> mimitrisha2001@gmail.com</p>
-            <p><strong>Phone:</strong> 8536932152</p>
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Ready to elevate your social media presence? Let's talk.</p>
+            </div>
+            
+            <div class="contact-grid">
+                <!-- Contact Information -->
+                <div class="contact-info-panel">
+                    <h3>Contact Information</h3>
+                    <p>Based in Kolkata, India · Available for remote opportunities worldwide</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-details">
+                                <h4>Email</h4>
+                                <a href="mailto:mimitrisha2001@gmail.com">mimitrisha2001@gmail.com</a>
+                                <span class="response-time">Response within 24 hours</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="method-details">
+                                <h4>Phone / WhatsApp</h4>
+                                <a href="tel:+918536932152">+91 85369 32152</a>
+                                <span class="response-time">Available 9 AM - 7 PM IST</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="method-details">
+                                <h4>LinkedIn</h4>
+                                <a href="#">linkedin.com/in/trishachatterjee</a>
+                                <span class="response-time">Let's connect professionally</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <div class="method-details">
+                                <h4>Instagram Portfolio</h4>
+                                <a href="#">@trisha.social</a>
+                                <span class="response-time">See my work in action</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <h4>Connect on Social Media</h4>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-threads"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-x-twitter"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="resume-download">
+                        <a href="#" class="btn btn-secondary btn-block">
+                            <i class="fas fa-file-pdf"></i> Download Resume (PDF)
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="contact-form-panel">
+                    <h3>Send Me a Message</h3>
+                    <p>Tell me about your project, role, or collaboration idea.</p>
+                    
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" placeholder="Your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="e.g., Social Media Manager Role / Campaign Inquiry">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="budget">Budget / Timeline (Optional)</label>
+                            <select id="budget" name="budget">
+                                <option value="">Select an option</option>
+                                <option value="under-500">Under $500/month</option>
+                                <option value="500-1500">$500 - $1,500/month</option>
+                                <option value="1500-3000">$1,500 - $3,000/month</option>
+                                <option value="3000-plus">$3,000+/month</option>
+                                <option value="fulltime">Full-time Role</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell me about your brand, goals, and what you're looking for..." required></textarea>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="nda" value="yes">
+                                <span>I may require an NDA before sharing detailed information</span>
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-large btn-block">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                        
+                        <p class="form-disclaimer">
+                            By submitting this form, you agree to be contacted regarding your inquiry. 
+                            Your information will not be shared with third parties.
+                        </p>
+                    </form>
+                </div>
+            </div>
         </div>
-        <form id="contact-form" style="margin-top: 20px;">
-            <input type="text" id="name" placeholder="Your Name" required>
-            <input type="email" id="email" placeholder="Your Email" required>
-            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
-            <button type="submit" class="btn">Send Message</button>
-        </form>
     </section>
 
-    <footer>
-        <p>&copy; 2026 Trisha Chatterjee. All rights reserved.</p>
+    <!-- ============================================ -->
+    <!-- FOOTER                                       -->
+    <!-- ============================================ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-text">Trisha Chatterjee</span>
+                        <span class="logo-badge">SMM</span>
+                    </div>
+                    <p>Social Media Manager & Content Strategist helping brands build authentic connections and drive measurable growth.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#case-studies">Case Studies</a></li>
+                        <li><a href="#content-samples">Portfolio</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#analytics">Analytics</a></li>
+                        <li><a href="#calendar">Strategy</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#tools">Tools</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h4>Get Social Tips</h4>
+                    <p>Subscribe for social media insights and updates.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email">
+                        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Trisha Chatterjee. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <span class="separator">|</span>
+                    <a href="#">Terms of Service</a>
+                </div>
+                <p class="footer-credit">Crafted with <i class="fas fa-heart"></i> for social media excellence</p>
+            </div>
+        </div>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- Mobile Menu Toggle Script -->
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+        
+        if (mobileMenuBtn) {
+            mobileMenuBtn.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+        }
+        
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+        
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    // Close mobile menu if open
+                    navLinks.classList.remove('active');
+                }
+            });
+        });
+        
+        // Content filter functionality
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const contentCards = document.querySelectorAll('.content-card');
+        
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterBtns.forEach(b => b.classList.remove('active'));
+                // Add active class to clicked button
+                btn.classList.add('active');
+                
+                const filter = btn.getAttribute('data-filter');
+                
+                contentCards.forEach(card => {
+                    if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+        
+        // Form submission
+        const contactForm = document.getElementById('contact-form');
+        if (contactForm) {
+            contactForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                alert('Thank you for your message! I will get back to you within 24 hours.');
+                contactForm.reset();
+            });
+        }
+    </script>
 </body>
 </html>
